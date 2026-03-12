@@ -17,5 +17,5 @@ app.use(cookieParser());
 
 // routes
 app.use("/api/v1/users", userRouter);
-console.log("userRouter:", userRouter)
+// console.log("userRouter:", userRouter)
 export { app };
